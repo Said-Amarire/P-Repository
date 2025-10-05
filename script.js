@@ -75,9 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
             addTask(taskText, false);
         });
     }
-
     // --- Attach event listeners ---
-
     // Click on "Add Task" button
     addButton.addEventListener('click', function () {
         addTask(); // read value from taskInput and save to localStorage
